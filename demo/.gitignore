@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Angular
+.angular/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
