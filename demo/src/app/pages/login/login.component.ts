@@ -39,7 +39,7 @@ import { environment } from '../../../environments/environment';
   styles: `
     :host { display: block; min-height: 100vh; font-family: 'Inter', sans-serif; }
     .login-container { display: flex; min-height: 100vh; position: relative; }
-    .login-bg { flex: 1; background: linear-gradient(135deg, #0F1B3D 0%, #1a2d5a 50%, #2a3f6a 100%); }
+    .login-bg { flex: 1; background: url('/images/fondocartagena.jpg') center/cover no-repeat; }
     .login-card { width: 440px; display: flex; flex-direction: column; justify-content: center; padding: 3rem; background: #FFF; }
     .login-header { text-align: center; margin-bottom: 2.5rem; }
     .logo-img { height: 48px; margin-bottom: 1rem; }
@@ -61,7 +61,7 @@ import { environment } from '../../../environments/environment';
 })
 export class LoginComponent {
   logoSrc = environment.logoUrl;
-  email = '';
+  email = 'admin@cartagenatailoredtravel.com';
   password = '';
   loading = false;
   error = '';
